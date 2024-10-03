@@ -1,1 +1,1 @@
-# UTNFRA_SO_1P2C_2024_GarciaVera
+Primer parcial Arquitecturea y sistemas operativos
