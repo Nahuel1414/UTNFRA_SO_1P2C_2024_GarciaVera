@@ -1,11 +1,9 @@
+#!/bin/bash
 mkdir /Examenes-UTN/
 cd /Examenes-UTN/
-mkdir alumno_1 alumno_2 alumno_3 profesores
-cd alumno_1
-mkdir parcial_1 parcial_2 parcial_3
-cd ..
-cd alumno_2
-mkdir parcial_1 parcial_2 parcial_3
-cd ..
-cd alumno_3
-mkdir parcial_1 parcial_2 parcial_3
+mkdir -p alumno_1 alumno_2 alumno_3 profesores
+for alumno in alumno_1 alumno_2 alumno_3; do
+	cd "$alumno"
+	touch parcial_1 parcial_2 parcial_3
+	cd ..
+done
