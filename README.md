@@ -1,4 +1,4 @@
 Nombre: Nahuel
-Apellido: Garcíá Vera
+Apellido: García Vera
 Legajo: 116310
 División: 311
